@@ -1,0 +1,105 @@
+/*
+    -------- HTML --------
+ */
+html {
+    background-color: white;
+    height: 100%;
+    overflow: scroll;
+}
+/*
+    -------- HEAD --------
+*/
+head {
+    color: white;
+}
+/*
+    -------- BODY --------
+*/
+body {
+    display: flex;
+        align-items: center;
+        flex-flow: column;
+        justify-content: space-between;
+    margin-top: 0;
+
+}
+    /*
+        -------- HEADER --------
+    */
+    div#banner{
+        /* background-color: #B22222; */
+        background-color: #FF6347;
+        display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        width: 100vw;
+        height: 10vh;
+    }
+        div#name {
+            /* CONTAINER */
+            display: flex;
+                align-items: center;
+                justify-content: center;
+            height: 10vh;
+            width: 25vw;
+        }
+            p#name-container {
+                display: flex;
+                    align-items: center;
+            }
+                a#name-content {
+                    /* TEXT */
+                    font-family: 'Mona Lisa Solid OS ITC TT','Optima Regular', Charcoal, Times, serif;
+                    font-size: 6vh;
+                }
+        div#else {
+            /* CONTAINER */
+            display: flex;
+                align-items: center;
+                /* justify-content: flex-start; */
+            height: 10vh;
+            width: 75vw;
+        }
+    .header-title {
+        /* TEXT */
+        color: white;
+        font-family: Didot, Courier, monospace;
+        font-size: 2vh;
+        /* CONTAINER */
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+    .href-white {
+        color: white;
+        text-decoration: none;
+    }
+            
+    /*
+        -------- CONTENT --------
+    */
+    div#content {
+        /* CONTAINER */
+        background-color: white;
+        box-shadow: -1vw 0vh #CD5C5C, 1vw 0vh #CD5C5C;
+        display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 2vh;
+            justify-content: center;
+        min-height: 80vh;
+        width: 80vw;
+    }
+    /*
+        -------- FOOTER --------
+    */
+    footer#footer {
+        background-color: #CD5C5C;
+        display: flex;
+            align-items: center;
+            justify-content: center;
+        height: 10vh;
+        width: 100vw;
+    }
+        p#footer-content {
+            color: white;
+        }

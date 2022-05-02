@@ -1,0 +1,63 @@
+/*
+    -------- BODY --------
+
+    Note that main-stylesheet contains the formatting for header and footer.
+    Elements are intended to inherit formatting unless changed here.
+*/
+div#content {
+    /* CONTAINER */
+    display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+}
+    h1#website-title {
+        /* TEXT */
+        text-align: left;
+    }
+    h1#robot-title {
+        /* TEXT */
+        text-align: right;
+    }
+    img#robot-isometric {
+        /* CONTAINER */
+        border-right: 1px solid #FF6347;
+        height: 300px;
+        width: 300px;
+    }
+    img#m3-logo {
+        /* CONTAINER */
+        border-left: 1px solid #FF6347;
+        height: 300px;
+        width: 300px;
+    }
+/*
+        CLASSES
+*/
+.project-title-container {
+    /* CONTAINER */
+    /* border: 2px solid black; */
+    border-bottom: 3px solid #FF6347;
+    display: flex;
+    width: 60vw;
+}
+.project-title {
+    /* TEXT */
+    font-family: 'Mona Lisa Solid OS ITC TT','Optima Regular', Charcoal, Times, serif;
+    font-size: 7vh;
+    /* CONTAINER */
+    /* border: 2px solid black; */
+    margin: 0px;
+    width: 60vw;
+}
+.project-content-container {
+    /* CONTAINER */
+    display: flex;
+        flex-direction: row;
+        gap: 1vw;
+    width: 60vw;
+}
+.project-content {
+    font-family: Didot;
+    font-size: 12pt;
+    text-align: justify;
+}

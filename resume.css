@@ -1,0 +1,38 @@
+/*
+    -------- BODY --------
+
+    Note that main-stylesheet contains the formatting for header and footer.
+    Elements are intended to inherit formatting unless changed here.
+*/
+div#resume-title {
+    /* CONTAINER */
+    border-bottom: 3px solid #FF6347;
+    display: flex;
+        align-items: center;
+    height: 10vh;
+    margin-top: 2vh;
+    width: 60vw;
+}
+    h1#resume-title-content {
+        /* TEXT */
+        color: black;
+        font-family: 'Mona Lisa Solid OS ITC TT','Optima Regular', Charcoal, Times, serif;
+        font-size: 7vh;
+        text-align: left;
+        /* CONTAINER */
+        width: 60vw;
+    }
+div#resume-container {
+    /* CONTAINER */
+    display: flex;
+        align-items: center;
+        justify-content: center;
+    margin-bottom: 2vh;
+    width: 60vw;
+}
+    iframe#resume {
+        /* CONTAINER */
+        border: 1px black solid;
+        height: 115vh;
+        width: 50vw;
+    }
