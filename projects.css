@@ -30,12 +30,17 @@ div#content {
         height: 300px;
         width: 300px;
     }
+    img#osu-logo {
+        /* CONTAINER */
+        border-right: 1px solid #FF6347;
+        height: 250px;
+        width: 300px;
+    }
 /*
         CLASSES
 */
 .project-title-container {
     /* CONTAINER */
-    /* border: 2px solid black; */
     border-bottom: 3px solid #FF6347;
     display: flex;
     width: 60vw;
@@ -45,7 +50,6 @@ div#content {
     font-family: 'Mona Lisa Solid OS ITC TT','Optima Regular', Charcoal, Times, serif;
     font-size: 7vh;
     /* CONTAINER */
-    /* border: 2px solid black; */
     margin: 0px;
     width: 60vw;
 }

@@ -1,0 +1,70 @@
+/*
+    -------- BODY --------
+
+    Note that main-stylesheet contains the formatting for header and footer.
+    Elements are intended to inherit formatting unless changed here.
+*/
+div#content {
+    /* CONTAINER */
+    display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+}
+        h1#email-title {
+            /* TEXT */
+            font-family: 'Mona Lisa Solid OS ITC TT','Optima Regular', Charcoal, Times, serif;;
+        }
+    div#email-subsection {
+        /* CONTAINER */
+        display: flex;
+            flex-flow: row;
+        gap: 1vw;
+        width: 30vw;
+    }
+        p#email-label {
+            /* TEXT */
+            text-align: right;
+            /* CONTAINER */
+            border-right: 3px solid #FF6347;
+            padding-right: 1vw;
+        }
+div#logo-container {
+    /* CONTAINER */
+    display: flex;
+        flex-flow: row;
+}
+img {
+    /* CONTAINER */
+    border-right: 3px solid #FF6347;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+/*
+        CLASSES
+*/
+.section-container {
+    /* CONTAINER */
+    display: flex;
+        flex-flow: row;
+        align-items: center;
+    gap: 2vw;
+    width: 60vw;
+}
+.section-title-container {
+    /* CONTAINER */
+    width: 10vw;
+}
+.title-container {
+    /* CONTAINER */
+    border-bottom: 3px solid #FF6347;
+    display: flex;
+    width: 60vw;
+}
+.title {
+    /* TEXT */
+    font-family: 'Mona Lisa Solid OS ITC TT','Optima Regular', Charcoal, Times, serif;
+    font-size: 7vh;
+    /* CONTAINER */
+    margin: 0px;
+    width: 60vw;
+}
