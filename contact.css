@@ -12,7 +12,7 @@ div#content {
 }
         h1#email-title {
             /* TEXT */
-            font-family: 'Mona Lisa Solid OS ITC TT','Optima Regular', Charcoal, Times, serif;;
+            font-family: 'Mona Lisa Solid OS ITC TT','Optima Regular', Charcoal, Times, serif;
         }
     div#email-subsection {
         /* CONTAINER */
@@ -33,11 +33,52 @@ div#logo-container {
     display: flex;
         flex-flow: row;
 }
+h1#social-title {
+    /* TEXT */
+    font-family: 'Mona Lisa Solid OS ITC TT','Optima Regular', Charcoal, Times, serif;
+}
 img {
     /* CONTAINER */
     border-right: 3px solid #FF6347;
     padding-left: 1vw;
     padding-right: 1vw;
+}
+    img#IG-logo {
+        /* CONTAINER */
+        height: 50px;
+        width: 50px;
+    }
+    img#linkedIn-logo {
+        /* CONTAINER */
+        height: 50px;
+        width: 50px;
+    }
+    img#handshake-logo {
+        /* CONTAINER */
+        border-right: none;
+        height: 50px;
+        width: 250px;
+    }
+h1#feedback-title {
+    /* TEXT */
+    text-align: right;
+}
+form#feedback-form {
+    /* CONTAINER */
+    display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 1vh;
+}
+input#feedback-content {
+    /* CONTAINER */
+    background-color: #FAF9F6;
+    padding: .5vw;
+    width: 30vw;
+}
+input#feedback-submit {
+    /* CONTAINER */
+    width: 10vw;
 }
 /*
         CLASSES
