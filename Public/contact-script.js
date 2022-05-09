@@ -37,7 +37,12 @@ function sendFeedback() {
             "Content-Type": "application/json"
         }
     };
-    console.log(options.body);
     // I send the object
-    fetch('/feedbackSubmission', options);
+    fetch('/feedbackSubmission', options)
+        .then(response => {
+            console.log(response.message);
+        })
+        .catch(error => {
+            return console.error(error);
+        });
 }
