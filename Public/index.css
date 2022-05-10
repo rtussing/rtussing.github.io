@@ -1,0 +1,80 @@
+
+/*
+    -------- BODY --------
+
+    Note that main-stylesheet contains the formatting for header and footer.
+    Elements are intended to inherit formatting unless changed here.
+*/
+div#content {
+    /* CONTAINER */
+    display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+}
+h1#intro-keywords {
+    /* TEXT */
+    font-family: 'Mona Lisa Solid OS ITC TT','Optima Regular', Charcoal, Times, serif;
+    font-size: 4vh;
+    /* CONTAINER */
+    margin: 0;
+}
+p#intro-content {
+    /* TEXT */
+    font-size: 12pt;
+}
+div#picture-container {
+    display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+img#psi {
+    /* CONTAINER */
+    height: 400px;
+    width: 300px;
+}
+img#taytow {
+    /* CONTAINER */
+    height: 400px;
+    width: 500px;
+}
+img#hitchcock {
+    /* CONTAINER */
+    height: 400px;
+    width: 300px;
+}
+img {
+    /* CONTAINER */
+    border-left: 1px solid #FF6347;
+    border-right: 1px solid #FF6347;
+    padding: 1vw;
+}
+/*
+    -------- CLASSES --------
+*/
+.title-container {
+    /* CONTAINER */
+    border-bottom: 3px solid #FF6347;
+    display: flex;
+    width: 60vw;
+}
+.title {
+    /* TEXT */
+    font-family: 'Mona Lisa Solid OS ITC TT','Optima Regular', Charcoal, Times, serif;
+    font-size: 7vh;
+    /* CONTAINER */
+    margin: 0px;
+    width: 60vw;
+}
+.content-container {
+    /* CONTAINER */
+    display: flex;
+        flex-direction: column;
+        gap: 1vw;
+    width: 60vw;
+}
+.content {
+    font-family: Didot;
+    font-size: 12pt;
+    text-align: justify;
+}

@@ -18,6 +18,14 @@ div#content {
         /* TEXT */
         text-align: right;
     }
+    h1#m3-title {
+        /* TEXT */
+        text-align: left;
+    }
+    h1#swift-title {
+        /* TEXT */
+        text-align: right;
+    }
     img#robot-isometric {
         /* CONTAINER */
         border-right: 1px solid #FF6347;
@@ -37,7 +45,7 @@ div#content {
         width: 300px;
     }
 /*
-        CLASSES
+    -------- CLASSES --------
 */
 .project-title-container {
     /* CONTAINER */

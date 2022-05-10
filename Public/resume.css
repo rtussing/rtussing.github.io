@@ -10,7 +10,7 @@ div#resume-title {
     display: flex;
         align-items: center;
     height: 10vh;
-    margin-top: 2vh;
+    /* margin-top: 2vh; */
     width: 60vw;
 }
     h1#resume-title-content {
